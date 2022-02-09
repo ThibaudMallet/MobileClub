@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(20, 20, 148);
+    color: white;
+    font-weight: 600;
+    font-size: 1.2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.index {
+    font-size: 1.5rem;
+    text-align: left;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
+    width: 50%;
+    margin: auto;
+}
+
+ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+li {
+    list-style: none;
+    padding: 10px;
+}
+
+section {
+    text-align: center;
+    margin: 150px auto;
+}
+
+h1 {
+    font-size: 4.5rem;
+    margin: 20px auto;
+}
+
+p {
+    font-size: 1.2rem;
+}
+
+.barre {
+    color: crimson;
+    text-decoration:line-through;
+    text-decoration-color: white;
+    font-size: 4.5rem;
+}
+.point {
+    color: crimson;
+}
+
+button {
+    padding: 20px;
+    border: none;
+    border-radius: 35px;
+    background: crimson;
+    margin: 30px auto;
+}
+
+.memberButton {
+    background: rgb(29, 67, 148);
+}
+
+.expo {
+    font-variant-position: super;
+    color: crimson;
+    font-size: 2rem;
+
+}
+
+.prix {
+    color: crimson;
+    font-size: 2rem;
+}
+
+.iphone1 {
+    position: absolute;
+    left: 500px;
+    top: 450px;
+    width: 300px;
+    height: auto;
+}
+
+.iphone2 {
+    position: absolute;
+    left: 750px;
+    top: 750px;
+    width: 300px;
+    height: auto;
+}
+.iphone3 {
+    position: absolute;
+    right: 500px;
+    top: 450px;
+    width: 300px;
+    height: auto;
+}
+.iphone4 {
+    position: absolute;
+    right: 750px;
+    top: 750px;
+    width: 300px;
+    height: auto;
+}
